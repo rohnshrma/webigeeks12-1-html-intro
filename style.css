@@ -1,0 +1,26 @@
+#hello {
+    padding: 4rem 8rem;
+    text-align: center;
+    background: linear-gradient(45deg, royalblue, purple);
+    color: #fff;
+}
+
+/*         
+
+input{
+    width:100%;
+    padding:10px 0;
+} */
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+form{
+    background: #000 !important;
+    color:#fff;
+    text-align: center;
+}

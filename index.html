@@ -3,19 +3,29 @@
 
 <head>
 
-    <style>
-div{
-    padding:4rem 8rem;
-    text-align: center;
-    background: linear-gradient(45deg,royalblue ,purple);
-    color:#fff;
-}
-img{
-    height: 300px;  
-    width: 300px;
-    border-radius: 50%;
-}
-    </style>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <style>
+        #hello {
+            padding: 4rem 8rem;
+            text-align: center;
+            background: linear-gradient(45deg, royalblue, purple);
+            color: #fff;
+        }
+
+        /*         
+
+        input{
+            width:100%;
+            padding:10px 0;
+        } */
+
+        img {
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+        }
+    </style> -->
 
 </head>
 
@@ -743,7 +753,7 @@ img{
         alt=""> -->
 
 
-    <div>
+    <div id="hello">
         <img src="https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?b=1&s=170667a&w=0&k=20&c=2EV5yXpZ5o3govOwB8EHPcD1xeYawBMdjmtX7pkjcCU="
             alt="cat image">
 
@@ -756,8 +766,99 @@ img{
         <a href="https://www.wikipedia.com/cats">Read More</a>
     </div>
 
+    <hr>
+
+    <!-- <video controls autoplay muted>
+         <source src="https://file-examples.com/storage/fe4996602366316ffa06467/2017/04/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+    </video>  -->
+
+    <!-- <audio controls autoplay muted>
+        <source src="https://file-examples.com/storage/fe4996602366316ffa06467/2017/11/file_example_MP3_700KB.mp3" >
+    </audio> -->
+
+<!-- inline css : style attribute -->
+    <form style="cursor: crosshair; background: royalblue;" method="post" action="mailto:rohan@email.com" enctype="text/plain" >
+
+        <div>
+            <label for="username">Full Name:</label>
+            <input id="username" name="user_name" type="text" placeholder="Enter your name">
+        </div>
+
+        <div>
+            <label>
+                Email Address : <input type="email" name="email" placeholder="Enter Email Address">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                Password : <input type="password" name="password" placeholder="Enter Your Password">
+            </label>
+        </div>
+        <div>
+            <label>
+                DOB: <input type="date" name="dob">
+            </label>
+        </div>
+        <div>
+            <label>
+                Phone: <input type="tel" name="phone" placeholder="Enter your phone number">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                Age: <input type="number" min="18" max="25" name="age" placeholder="Enter your age">
+            </label>
+        </div>
 
 
+
+        <div>
+            Gender :
+            <label>
+                Male: <input type="radio" name="gender">
+            </label>
+            <label>
+                Female: <input type="radio" name="gender">
+            </label>
+            <label>
+                Others: <input type="radio" name="gender">
+            </label>
+        </div>
+
+        <div>
+            Favourite Sports :
+            <label>
+                Cricket: <input type="checkbox" name="sports">
+            </label>
+            <label>
+                Football: <input type="checkbox" name="sports">
+            </label>
+            <label>
+                Baseball: <input type="checkbox" name="sports">
+            </label>
+
+            <label>
+                Ludo: <input type="checkbox" checked name="sports">
+            </label>
+        </div>
+
+        <div>
+            <label>Favourite Color : <input type="color" name="fav_color"></label>
+        </div>
+        <div>
+            <label>Profile Picture : <input type="file" name="fav_color"></label>
+        </div>
+
+    <!-- <input type="button" value="submit"> -->
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="">Reset</button>
+
+
+    </form>
 
 </body>
 
