@@ -18,9 +18,14 @@ img {
     border-radius: 50%;
 }
 
-
+/* 
 form{
     background: #000 !important;
     color:#fff;
     text-align: center;
+} */
+
+
+#name{
+    color:red;
 }
